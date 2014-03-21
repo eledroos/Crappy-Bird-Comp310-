@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = "crappyBird.Main"
+version = '0.0.1'
+description = 'CrappyBird is Flappy Bird, but crappy. :-)'
+
+repositories {
+	mavenCentral()
+}
